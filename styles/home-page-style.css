@@ -58,6 +58,24 @@ body
     text-decoration: none;
 }
 
+.top-menu-link:hover
+{
+    color: gray;
+}
+
+.red-youtube
+{
+    background-color: red;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.red-youtube:hover
+{
+    background-color: white;
+    color: red;
+}
+
 figure
 {
     display: inline-block;
