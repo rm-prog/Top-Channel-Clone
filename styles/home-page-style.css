@@ -80,3 +80,19 @@ figure
 {
     display: inline-block;
 }
+
+#search-icon
+{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 580px;  
+}
+
+#menu-icon
+{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 620px;
+}
