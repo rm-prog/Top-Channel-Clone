@@ -15,7 +15,7 @@ body
 {
     background-color: darkblue;
     width: 100%;
-    height: 60px;
+    height: 61px;
     display: block;
 }
 
@@ -25,6 +25,7 @@ body
     width: 60px;
     position: relative;
     left: 30px;
+    bottom: 2px;
     display: inline-block;
 }
 
@@ -87,12 +88,72 @@ figure
     width: 60px;
     position: relative;
     left: 580px;  
+    bottom: 2px;
 }
 
-#menu-icon
+/* #menu-icon
 {
     height: 60px;
     width: 60px;
     position: relative;
     left: 620px;
 }
+*/
+
+.hamburger
+{
+    display: inline-block;
+    position: relative;
+    left: 620px;
+    cursor: pointer;
+}
+
+.line
+{
+    width: 60px;
+    height: 7px;
+    margin: 10px;
+    background-color: white;
+}
+
+#dropdown-lists-container
+{
+    display: none;
+}
+
+.dropdown-list
+{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.dropdown-list-header
+{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.dropdown-list-item
+{
+    margin: 6px;
+}
+
+.dropdown-list-link
+{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #B7B6B4;
+}
+
+.dropdown-list-link:hover
+{
+    color: white;
+}
+
