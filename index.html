@@ -3,28 +3,29 @@
     <head>
         <title> Top-Channel </title>
         <link rel="stylesheet" type="text/css" href="styles/home-page-style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
         <header>
             <div id="header">
-                <figure>
+                <figure id="top-channel-icon-container">
                     <!-- Top Channel logo -->
                     <a href="index.html">
                         <img src="Images/top-channel-icon.png" alt="top-channel" id="top-channel-icon">
                     </a>
                 </figure>
-                <nav class="inline-menu" id="top-menu">
+                <nav id="top-menu">
                     <!-- Links to different news categories -->
                     <ul class="inline-menu">
                         <li class="inline-menu-item">
                             <a class="top-menu-link" href=""> Lajme </a>
                         </li>
                         <li class="inline-menu-item">
-                            <a class="top-menu-link" href=""> Sport</a>
+                            <a class="top-menu-link" href=""> Sport </a>
                         </li>
                         <li class="inline-menu-item">
-                            <a class="top-menu-link" href=""> Pop News</a>
+                            <a class="top-menu-link" href=""> Pop News </a>
                         </li>
                         <li class="inline-menu-item">
                             <a class="top-menu-link" href=""> Programe </a>
@@ -34,13 +35,13 @@
                         </li>
                     </ul>
                 </nav>
-                <figure>
+                <figure id="search-icon-container">
                     <!-- Search bar -->
                     <img src="Images/search-icon-hi.png" alt="search" id="search-icon">
                 </figure>
-                <figure>
+                <figure class="hamburger">
                     <!-- Dropdown menu button -->
-                    <div onclick="dropdownList()" class="hamburger">
+                    <div onclick="dropdownList()">
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
@@ -74,6 +75,9 @@
         </header>
 
         <main>
+            <div id="date">
+                E MARTE, 22 DHJETOR
+            </div>
             <div id="list-of-news-images">
                 <!-- List of image links with a news title -->
             </div>

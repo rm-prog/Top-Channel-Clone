@@ -14,19 +14,23 @@ body
 #header 
 {
     background-color: darkblue;
-    width: 100%;
+    width: auto;
     height: 61px;
     display: block;
+    margin-bottom: 20px;
+}
+
+#top-channel-icon-container
+{
+    position: relative;
+    left: 30px;
+    display: inline-block;
 }
 
 #top-channel-icon
 {
     height: 60px;
     width: 60px;
-    position: relative;
-    left: 30px;
-    bottom: 2px;
-    display: inline-block;
 }
 
 #top-menu
@@ -34,14 +38,8 @@ body
     position: relative;
     left: 30px;
     bottom: 28px;
-}
-
-.inline-menu
-{
-    display: inline-block;
     padding: 2px;
-    margin: 2px;
-    vertical-align: middle;
+    display: inline-block;
 }
 
 .inline-menu-item
@@ -77,18 +75,17 @@ body
     color: red;
 }
 
-figure
+#search-icon-container
 {
+    position: relative;
     display: inline-block;
+    left: 550px;  
 }
 
 #search-icon
 {
     height: 60px;
     width: 60px;
-    position: relative;
-    left: 580px;  
-    bottom: 2px;
 }
 
 /* #menu-icon
@@ -112,13 +109,18 @@ figure
 {
     width: 60px;
     height: 7px;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     background-color: white;
 }
 
 #dropdown-lists-container
 {
     display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: darkblue;
+    width: 100%;
 }
 
 .dropdown-list
@@ -136,12 +138,13 @@ figure
     font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 .dropdown-list-item
 {
-    margin: 6px;
+    margin-bottom: 6px;
+    margin-top: 6px;
 }
 
 .dropdown-list-link
@@ -155,5 +158,14 @@ figure
 .dropdown-list-link:hover
 {
     color: white;
+}
+
+#date
+{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    position: relative;
+    left: 50px;
 }
 
