@@ -1,17 +1,18 @@
 
-const dropdownListsContainer = document.getElementById("dropdown-lists-container");
 let listDroppedDown = false;
-const headerDiv = document.getElementById("header");
 
 function dropdownList() {
-    
+
+    const dropdownListsContainer = document.getElementById("dropdown-lists-container");
+    const topMenu = document.getElementById("top-menu");
+
     if (!listDroppedDown) {
-        dropdownListsContainer.style.display = "block";
+        dropdownListsContainer.style.display = "grid";
         listDroppedDown = true;
-        headerDiv.style.height = "auto";
+        topMenu.style.display = "none";
     } else {
         dropdownListsContainer.style.display = "none";
         listDroppedDown = false;
-        headerDiv.style.height = "61px";
+        topMenu.style.display = "inline-grid";
     }
 }
