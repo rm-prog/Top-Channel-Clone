@@ -13,6 +13,6 @@ function dropdownList() {
     } else {
         dropdownListsContainer.style.display = "none";
         listDroppedDown = false;
-        topMenu.style.display = "inline-grid";
+        topMenu.style.display = "block";
     }
 }
