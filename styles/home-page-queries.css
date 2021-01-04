@@ -42,6 +42,31 @@
     #dropdown-lists-container
     {
         grid-template-columns: auto;
+        height: 200px;
+        overflow-y: scroll;
+        border-top: 2px wheat solid;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    #dropdown-lists-container::-webkit-scrollbar
+    {
+        width: 10px;
+    }
+
+    #dropdown-lists-container::-webkit-scrollbar-track
+    {
+        background: darkblue;
+    }
+
+    #dropdown-lists-container::-webkit-scrollbar-thumb
+    {
+        background: white;
+    }
+
+    #dropdown-lists-container::-webkit-scrollbar-thumb:hover
+    {
+        background: gray;
     }
 
     .dropdown-list-item

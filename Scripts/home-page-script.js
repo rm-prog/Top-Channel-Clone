@@ -1,5 +1,6 @@
 
 let listDroppedDown = false;
+const screenWidth = window.screen.availWidth;
 
 function dropdownList() {
 
@@ -7,12 +8,14 @@ function dropdownList() {
     const topMenu = document.getElementById("top-menu");
 
     if (!listDroppedDown) {
-        dropdownListsContainer.style.display = "grid";
+        dropdownListsContainer.style.visibility = "visible";
+        dropdownListsContainer.style.height = screenWidth <= 768 ? "250px" : "158px";
         listDroppedDown = true;
-        topMenu.style.display = "none";
+        topMenu.style.visibility = "hidden";
     } else {
-        dropdownListsContainer.style.display = "none";
+        dropdownListsContainer.style.visibility = "hidden";
+        dropdownListsContainer.style.height = "0px";
         listDroppedDown = false;
-        topMenu.style.display = "block";
+        topMenu.style.visibility = "visible";
     }
 }
