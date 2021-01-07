@@ -75,10 +75,119 @@
             <div id="date">
                 E MARTE, 22 DHJETOR
             </div>
-            <div id="list-of-news-images">
-                <!-- List of image links with a news title -->
+            <div id="main-news-images-container">
+                <div id="draggable-news-list">
+                    <div id="list-of-news-images">
+                        <!-- List of image links with a news title -->
+                        <a href="#" class="big-news-image-link" onmouseover="mouseOverNews()" onmouseout="mouseOutNews()">
+                            <img src="Images/kuvendi.jpg" class="big-news-image" alt="Parlamenti">
+                            <div class="big-news-title">   
+                                Seanca e jashtëzakonshme e parlamentit / Miratohet <br> shkarkimi i Ramës dhe emërimi i Xhaçkës dhe Peleshit 
+                            </div>
+                        </a>
+                        <a href="#" class="big-news-image-link" onmouseover="mouseOverNews()" onmouseout="mouseOutNews()">
+                            <img src="Images/ministria-mbrojtjes.jpg" class="big-news-image" alt="Ministria e Mbrojtjes">
+                            <div class="big-news-title">     
+                                Xhaçka i dorëzon detyrën ministrit të ri të Mbrojtjes, Niko Peleshi  
+                            </div>
+                        </a>
+                        <a href="#" class="big-news-image-link" onmouseover="mouseOverNews()" onmouseout="mouseOutNews()">
+                            <img src="Images/vaksina-itali.jpg" class="big-news-image" alt="Vaksina e Covid-19">
+                            <div class="big-news-title">     
+                                Itali/ Vaksinohen mbi 151 mijë persona kundër COVID   
+                            </div>
+                        </a>
+                        <a href="#" class="big-news-image-link" onmouseover="mouseOverNews()" onmouseout="mouseOutNews()">
+                            <img src="Images/covid-test.jpg" class="big-news-image" alt="Pandemia">
+                            <div class="big-news-title">      
+                                Mbi 86 milionë raste me COVID-19 në mbarë botën    
+                            </div>
+                        </a>
+                    </div>
+                    <ul class="dots">
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="0">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="1">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="2">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="3">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="4">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="5"> 
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="6">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="7">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="8">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="9">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="10">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="11">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="12">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="13">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="14">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="15">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="16">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="17">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="18">
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button role="tab" onclick="dotClick(this)" value="19">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
             <section>
                 <!-- Lajmi i fundit -->
             </section>
@@ -104,6 +213,8 @@
             </section>
         </main>
 
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="Scripts/home-page-script.js"></script>
+        <script src="Scripts/draggable-list-script.js"></script>
     </body>
 </html>

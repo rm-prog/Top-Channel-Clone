@@ -86,4 +86,18 @@
         left: 0px;
         font-size: 1.1rem;
     }
+
+    #list-of-news-images{
+        width: 300px;
+        height: 250px;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    .big-news-image
+    {
+        width: 300px;
+        height: 250px;
+    }
 }
