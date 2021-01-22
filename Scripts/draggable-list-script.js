@@ -51,6 +51,9 @@ function mouseOutNews() {
 
 function moveNewsImage() {
     newsIndex++;
+    if (newsIndex > 14) {
+        newsIndex = 0;
+    }
 
     $(".dots li button")[newsIndex].click();
         
