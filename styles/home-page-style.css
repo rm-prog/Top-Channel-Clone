@@ -164,15 +164,15 @@ html, body
 
 #date
 {
+    background-color: #E3E1DD;
     font-size: 1.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkblue;
-    position: relative;
-    left: 50px;
 }
 
 #main-news-images-container
 {
+    background-color: #E3E1DD;
     display: flex;
     flex-wrap: wrap;
 }
@@ -297,4 +297,15 @@ html, body
     left: 10px;
     bottom: 80px;
     font-weight: bold;
+}
+
+.section-header
+{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 100px;
 }
