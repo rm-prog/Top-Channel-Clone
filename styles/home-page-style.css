@@ -299,6 +299,14 @@ html, body
     font-weight: bold;
 }
 
+.container-of-section-news
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .section-header
 {
     color: black;
@@ -308,4 +316,29 @@ html, body
     margin-bottom: 10px;
     position: relative;
     left: 100px;
+}
+
+.section-news-image
+{
+    width: 400px;
+    height: 200px;
+}
+
+.section-news-image-container
+{
+    margin: 5px;
+}
+
+.section-news-title
+{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.section-news-date
+{
+    font-size: 0.9rem;
+    color: gray;
 }
