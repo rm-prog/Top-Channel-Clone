@@ -8,44 +8,50 @@
     </head>
 
     <body>
-        <header id="header">
-            <figure id="top-channel-icon-container">
-                    <!-- Top Channel logo -->
-                <a href="index.html">
-                    <img src="Images/top-channel-icon.png" alt="top-channel" id="top-channel-icon">
-                </a>
+        <header>
+            <div id="header">
+                <figure id="top-channel-icon-container">
+                        <!-- Top Channel logo -->
+                    <a href="index.html">
+                        <img src="Images/top-channel-icon.png" alt="top-channel" id="top-channel-icon">
+                    </a>
+                    </figure>
+                <nav id="top-menu">
+                        <!-- Links to different news categories -->
+                    <div class="top-menu-item">
+                        <a class="top-menu-link" href="#"> Lajme </a>
+                    </div>
+                    <div class="top-menu-item">
+                        <a class="top-menu-link" href="#"> Sport </a>
+                    </div>
+                    <div class="top-menu-item">
+                        <a class="top-menu-link" href="#"> Pop News </a>
+                    </div>
+                    <div class="top-menu-item">
+                        <a class="top-menu-link" href="#"> Programe </a>
+                    </div>
+                    <div class="top-menu-item">
+                        <a class="top-menu-link red-youtube" href="https://www.youtube.com/user/TopChannelAlbania?sub_confirmation=1"> YOUTUBE </a> 
+                    </div>
+                </nav>
+                <figure id="search-icon-container">
+                        <!-- Search bar -->
+                    <img src="Images/search-icon-hi.png" alt="search" id="search-icon" onclick="searchBar()">
+                        
                 </figure>
-            <nav id="top-menu">
-                    <!-- Links to different news categories -->
-                <div class="top-menu-item">
-                    <a class="top-menu-link" href="#"> Lajme </a>
-                </div>
-                <div class="top-menu-item">
-                    <a class="top-menu-link" href="#"> Sport </a>
-                </div>
-                <div class="top-menu-item">
-                    <a class="top-menu-link" href="#"> Pop News </a>
-                </div>
-                <div class="top-menu-item">
-                    <a class="top-menu-link" href="#"> Programe </a>
-                </div>
-                <div class="top-menu-item">
-                    <a class="top-menu-link red-youtube" href="https://www.youtube.com/user/TopChannelAlbania?sub_confirmation=1"> YOUTUBE </a> 
-                </div>
-             </nav>
-            <figure id="search-icon-container">
-                    <!-- Search bar -->
-                <img src="Images/search-icon-hi.png" alt="search" id="search-icon">
-                    
-            </figure>
-            <figure id="hamburger">
-                <!-- Dropdown menu button -->
-                <div onclick="dropdownList()">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </figure>
+                <figure id="hamburger">
+                    <!-- Dropdown menu button -->
+                    <div onclick="dropdownList()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </figure>
+            </div>
+
+            <div id="search-bar-container">
+                <input type="text" id="search-bar">
+            </div>
         </header>
 
         <main>
@@ -228,20 +234,27 @@
                             <div class="section-news-date"> 01/02 22:10 </div>
                         </a>
                     </div>
+                    <hr class="seperating-line">
                     <div class="section-news-container"> 
-                        <figure class="section-news-image-container">
-                            <img class="section-news-image">
-                        </figure>
-                        <div class="section-news-title"></div>
-                        <div class="section-news-date"></div>
+                        <a href="#">
+                            <figure class="section-news-image-container">
+                                <img class="section-news-image second-third" src="Images/seli-partie.jpg">
+                            </figure>
+                            <div class="section-news-title"> KQZ ndan fondet per partite | Ja sa perfitojne <br>PS, PD, LSI</div>
+                            <div class="section-news-date"> 02/02 19:36 </div>
+                        </a>
                     </div>
+                    <hr class="seperating-line">
                     <div class="section-news-container"> 
-                        <figure>
-                            <img class="section-news-image-container">
-                        </figure>
-                        <div class="section-news-title"></div>
-                        <div class="section-news-date"></div>
+                        <a href="#">
+                            <figure class="section-news-image-container">
+                                <img class="section-news-image second-third" src="Images/Selia-e-PD.jpg">
+                            </figure>
+                            <div class="section-news-title"> Zbulohen drejtuesit politikë të PD-së në Tiranë, <br> mes tyre Duma, Noka e Bumçi</div>
+                            <div class="section-news-date"> 02/02 18:19 </div>
+                        </a>
                     </div>
+                    <hr class="seperating-line">
 
                 </div>
             </section>
@@ -266,5 +279,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="Scripts/dropdown-list.js"></script>
         <script src="Scripts/draggable-list-script.js"></script>
+        <script src="Scripts/search-bar-script.js"></script>
     </body>
 </html>

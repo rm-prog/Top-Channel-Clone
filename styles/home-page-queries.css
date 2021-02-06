@@ -89,7 +89,7 @@
 
     #list-of-news-images{
         width: 300px;
-        height: 250px;
+        height: 310px;
         position: relative;
         left: 10px;
         top: 10px;
@@ -98,11 +98,18 @@
     .big-news-image
     {
         width: 300px;
-        height: 250px;
+        height: 300px;
+    }
+
+    .big-news-title
+    {
+        position: relative;
+        bottom: 145px;
     }
 
     .dots{
         position: relative;
+        bottom: 27px;
         left: 10px;
     }
     
@@ -118,5 +125,32 @@
     {
         position: relative;
         left: 10px;
+    }
+
+    .section-news-image
+    {
+        width: 300px;
+    }
+
+    .seperating-line
+    {
+        visibility: visible;
+        width: 98%;
+    }
+
+    .section-news-container
+    {
+        margin: 10px;
+    }
+
+    .second-third
+    {
+        display: none;
+    }
+
+    #search-bar
+    {
+        position: relative;
+        left: 13px;
     }
 }

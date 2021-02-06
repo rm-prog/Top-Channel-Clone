@@ -22,9 +22,10 @@ function dotClick(b) {
         }
     );
     b.style.background = "white";
-    
-    const newPosition = Number(b.value) * imageSize;
+
     newsIndex = parseInt(b.value);
+    const newPosition = newsIndex * imageSize;
+    
 
     $("#list-of-news-images a").css(
         {
@@ -51,7 +52,7 @@ function mouseOutNews() {
 
 function moveNewsImage() {
     newsIndex++;
-    if (newsIndex > 14) {
+    if (newsIndex > 13) {
         newsIndex = 0;
     }
 
