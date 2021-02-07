@@ -81,6 +81,7 @@ html, body
 {
     position: relative;
     left: 400px;
+    cursor: pointer;
 }
 
 #search-icon
@@ -132,6 +133,7 @@ html, body
     top: 5px;
     font-size: 1.1rem;
 }
+
 
 #dropdown-lists-container
 {
@@ -318,6 +320,11 @@ html, body
     left: 10px;
     bottom: 80px;
     font-weight: bold;
+}
+
+.news-section
+{
+    margin: 10px;
 }
 
 .container-of-section-news
