@@ -1,4 +1,7 @@
 
+// Drop the search bar when clicking the search button
+// Close the search bar when clicking the button again
+
 let searchBarDropped = false;
 
 function searchBar() {
